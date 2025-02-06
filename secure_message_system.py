@@ -9,7 +9,6 @@ from Crypto.Cipher import PKCS1_OAEP
 USER_DB_FILE = 'user_db.txt'
 MESSAGE_DB_DIR = 'message_db'
 
-# Ensure necessary directories and files exist
 if not os.path.exists(MESSAGE_DB_DIR):
     os.makedirs(MESSAGE_DB_DIR)
 
